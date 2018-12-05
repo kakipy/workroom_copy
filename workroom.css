@@ -80,7 +80,7 @@ header{
 }
 /* メインコピー*/
 .mainCopy{
-    background-image: url(images/main_img.png);
+    background-image: url(https://workroom.biz/wp-content/themes/workroom3/img/common/main_img.png);
     background-size: cover;
     background-position: center center;
     padding: 170px 0;
