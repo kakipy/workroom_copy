@@ -1,0 +1,221 @@
+/* タブ１*/
+@media(max-width:880px){
+    /* ヘッダー*/
+    .navbtn{
+        display: block;
+    }
+    .lv1-right{
+        display: none;
+    }
+    .lv2-right{
+        display: none;
+    }
+    .lv2-left{
+        float: none;
+        margin: 0 auto;
+    }
+    /* 実績*/
+    .WebC{
+        width:45%;
+    }
+    .section6-contents1 h4{
+        font-size: 50px;
+    }
+    .SB{
+        width: 49%;
+    }
+}
+
+/* タブ２*/
+@media(max-width:750px){
+    .mainCopy h1{
+        font-size: 31px;
+    }
+    .mainCopy p{
+        font-size: 17px;
+    }
+    /* コンテンツ*/
+    .section2-contents{
+        width: 50%;
+    }
+    .section4-contents{
+        width: 50%;
+    }
+
+    /* ブログ*/
+    .section9 article{
+        width:50%;
+    }
+    
+}
+
+/* スマホ*/
+@media(max-width:480px){
+    /* ヘッダー*/
+    .header-level1{
+        display: none;
+    }
+
+    /* コンテンツ*/
+    .section2-contents{
+        width: 100%;
+    }
+    .heading h2{
+        font-size: 24px;
+    }
+    .section4-contents{
+        width: 100%;
+    }
+    .section9 article{
+        width:100%;
+    }
+    .WebC{
+        width:90%;
+    }
+    .section6-contents1 h4{
+        font-size: 100px;
+    }
+    .SB{
+        width: 100%;
+    }
+
+    /* スマホ版微修正*/
+    /* ヘッダー*/
+    .lv2-left{
+        float: none;
+        margin: 0;
+    }
+
+    /* セクション１*/
+    .section1 h2{
+        text-align: left;
+        font-size: 28px;
+    }
+    .section1 p{
+        text-align: left;
+        font-size: 14px;
+    }
+
+    /* セクション２*/
+    .ballon1{
+        height: 40px;
+        font-size: 12px;
+        text-align: left;
+    }
+    .ballon1::before{
+        top:102%;
+    }
+    .section2-contents{
+        padding-left: 0;
+    }
+     /* セクション３*/
+     .section3-heading{
+         padding: 40px 0;
+     }
+     .section3-heading h3{
+        font-size: 21px;
+    }
+    .section3-image{
+        min-height: 200px;
+        width: 100%;
+        float: none;
+        clear: both;
+    }
+    .section3-text{
+        padding: 25px;
+        width: 90%;
+        max-width: 560px;
+        margin:0 auto;
+        position: static;
+        margin-top: -30px;
+    
+    }
+    .section3-text h4{
+        font-size: 25px;
+    }
+    .section3-text p{
+        font-size: 14px;
+    }
+    /* セクション４*/
+    .section4-heading h3{
+        font-size: 28px;
+    }
+    .section4-contents p{
+        width: 97.5%;
+        bottom: 5px;
+    }
+    .section4-arrowbtn p{
+        font-size: 21px;
+    }
+    /* セクション５*/
+    .section5 h3{
+        font-size:24px;
+    }
+    .section5 p{
+        font-size: 14px;
+    }
+    .section5 a{
+        padding: 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .text-area1,.text-area2,.text-area3{
+        padding: 25px;
+    }
+    /* セクション６*/
+    .section6 h3{
+        font-size: 28px;
+    }
+    .section6 h4{
+        font-size: 34px;
+        font-weight: 100;
+        margin-top: -90px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .WebC p{
+        width: 96.5%;
+    }
+    .SB h4{
+        font-size: 36px;
+    }
+    /* セクション７*/
+    .section7-heading{
+        padding: 40px 20px;
+    }
+    .section7-heading h3{
+        font-size: 21px;
+    }
+    .section7-copy h3{
+        font-size: 30px;
+    }
+    .section7-copy h4{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .setion7-text h4{
+        font-size: 20px;
+    }
+    .setion7-text p{
+        font-size: 14px;
+    }
+    .setion7-text img{
+        width: 100%;
+    }
+    /* セクション８*/
+    .section8 img{
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: -1;
+    }
+    .section8-text{
+        position: static;
+        width: 90%;
+        margin: 300px auto 0 auto;
+    }
+    /* セクション10*/
+    .section10 h3{
+        font-size: 28px;
+    }
+}  
